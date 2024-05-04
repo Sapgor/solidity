@@ -1,0 +1,68 @@
+=============== May 4, 2024 (MSK) ===============
+18:12:50.771586 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:12:50.775608 db@open opening
+18:12:50.777606 version@stat F·[] S·0B[] Sc·[]
+18:12:50.778938 db@janitor F·2 G·0
+18:12:50.778938 db@open done T·3.3304ms
+=============== May 4, 2024 (MSK) ===============
+18:16:03.043856 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:16:03.043856 version@stat F·[] S·0B[] Sc·[]
+18:16:03.043856 db@open opening
+18:16:03.043856 journal@recovery F·1
+18:16:03.046730 journal@recovery recovering @1
+18:16:03.049445 memdb@flush created L0@2 N·1 S·123B "version,v1":"version,v1"
+18:16:03.052010 version@stat F·[1] S·123B[123B] Sc·[0.25]
+18:16:03.059225 db@janitor F·3 G·0
+18:16:03.059225 db@open done T·15.3687ms
+=============== May 4, 2024 (MSK) ===============
+18:20:15.189728 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:20:15.190724 version@stat F·[1] S·123B[123B] Sc·[0.25]
+18:20:15.190724 db@open opening
+18:20:15.190724 journal@recovery F·1
+18:20:15.192930 journal@recovery recovering @3
+18:20:15.196931 version@stat F·[1] S·123B[123B] Sc·[0.25]
+18:20:15.202663 db@janitor F·3 G·0
+18:20:15.202663 db@open done T·11.9389ms
+19:07:45.214116 memdb@flush N·36422 S·3MiB
+19:07:45.248603 memdb@flush created L0@8 N·36422 S·756KiB "loc..seq,v5":"n:\xff..ong,v13114"
+19:07:45.248603 version@stat F·[2] S·756KiB[756KiB] Sc·[0.50]
+19:07:45.249646 memdb@flush committed F·1 T·34.9824ms
+19:07:45.251241 journal@remove removed @5
+19:46:45.224411 memdb@flush N·34614 S·3MiB
+19:46:45.250578 memdb@flush created L0@10 N·34614 S·686KiB "n:\x00..ing,v38254":"n:\xff..ong,v61034"
+19:46:45.250578 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+19:46:45.251859 memdb@flush committed F·1 T·27.4477ms
+19:46:45.252366 journal@remove removed @7
+19:46:56.950253 table@compaction L0·2 -> L1·0 S·1MiB Q·71204
+19:46:56.972095 table@build created L1@11 N·19452 S·646KiB "loc..seq,v5":"n:\xff..ong,v61034"
+19:46:56.972095 version@stat F·[1 1] S·646KiB[123B 646KiB] Sc·[0.25 0.01]
+19:46:56.973161 table@compaction committed F-1 S-796KiB Ke·0 D·51584 T·22.9089ms
+19:46:56.973680 table@remove removed @10
+19:46:56.974202 table@remove removed @8
+=============== May 4, 2024 (MSK) ===============
+22:11:00.311601 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:11:00.312687 version@stat F·[1 1] S·646KiB[123B 646KiB] Sc·[0.25 0.01]
+22:11:00.312687 db@open opening
+22:11:00.312687 journal@recovery F·1
+22:11:00.314289 journal@recovery recovering @9
+22:11:00.375101 memdb@flush created L0@12 N·32012 S·619KiB "n:\x00..ing,v103037":"n:\xff..ail,v95566"
+22:11:00.378769 version@stat F·[2 1] S·1MiB[619KiB 646KiB] Sc·[0.50 0.01]
+22:11:00.386651 db@janitor F·5 G·0
+22:11:00.386651 db@open done T·73.9638ms
+=============== May 4, 2024 (MSK) ===============
+22:17:50.048367 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:17:50.048903 version@stat F·[2 1] S·1MiB[619KiB 646KiB] Sc·[0.50 0.01]
+22:17:50.048903 db@open opening
+22:17:50.048903 journal@recovery F·1
+22:17:50.051936 journal@recovery recovering @13
+22:17:50.054081 memdb@flush created L0@15 N·1 S·164B "loc..seq,v103052":"loc..seq,v103052"
+22:17:50.055667 version@stat F·[3 1] S·1MiB[619KiB 646KiB] Sc·[0.75 0.01]
+22:17:50.061098 db@janitor F·6 G·0
+22:17:50.061098 db@open done T·12.1953ms
+22:17:52.602176 table@compaction expanding L0+L1 (F·1 S·619KiB)+(F·1 S·646KiB) -> (F·2 S·619KiB)+(F·1 S·646KiB)
+22:17:52.602176 table@compaction L0·2 -> L1·1 S·1MiB Q·103074
+22:17:52.648273 table@build created L1@18 N·25394 S·840KiB "loc..seq,v103052":"n:\xff..ong,v61034"
+22:17:52.648273 version@stat F·[1 1] S·840KiB[123B 840KiB] Sc·[0.25 0.01]
+22:17:52.649702 table@compaction committed F-2 S-425KiB Ke·0 D·26071 T·47.5257ms
+22:17:52.650381 table@remove removed @12
+22:17:52.650630 table@remove removed @11
